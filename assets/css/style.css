@@ -134,6 +134,10 @@
     align-items: center;
     position: relative;
 }
+.sub-banner .banner-wrap{
+    justify-content: center;
+
+}
 .banner-text h1 {
     font-size: 3.125rem;
     font-weight: 700;
@@ -148,6 +152,11 @@
 .banner-text {
     max-width: 31.25rem;
     width: 100%;
+}
+.sub-banner .banner-text {
+    max-width: 80%;
+    width: 100%;
+    text-align: center;
 }
 .contact-btn a {
     display: inline-block;
@@ -674,3 +683,47 @@ justify-content: center;
     bottom: 1.25rem;
 }
 /* blog pages css end */
+
+/* privacy policy page css start */
+.privacy-wrap h4 {
+    font-size: 1.5625rem;
+    font-weight: 700;
+    margin-bottom: 0.625rem;
+    color: #25294a;
+}
+.privacy-wrap p{
+    font-size: 1.125rem;
+    color: #333;
+    margin-bottom: 0.625rem;
+}
+.privacy-wrap p strong{
+    color: #000;
+}
+.privacy-wrap p a{
+    color: #000;
+    text-decoration: underline;
+font-weight: 600;
+}
+.privacy-wrap ul{
+    padding-left: 1.25rem;
+    list-style: disc;
+    margin: 0.625rem 0;
+
+}
+.privacy-wrap ul li{
+    font-size: 1.125rem;
+    color: #333;
+    padding: 2px 0; 
+}
+.privacy-wrap ul li strong{
+    color: #000;
+}
+.privacy-wrap ul li a{
+    color: #000;
+    text-decoration: underline;
+font-weight: 600;
+}
+.privacy-wrap {
+margin: 1.5625rem 0;
+}
+/* privacy policy page css end */
