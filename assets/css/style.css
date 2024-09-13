@@ -43,30 +43,30 @@
      opacity: 0.3;
 }
 .ptb-30{
-    padding: 30px 0;
+    padding: 1.875rem 0;
 }
 .pt-30{
-    padding-top: 30px
+    padding-top: 1.875rem;
 }
  .ptb-50 {
-     padding: 50px 0;
+     padding: 3.125rem 0;
 }
  .pb-50 {
-     padding-bottom: 50px;
+     padding-bottom: 3.125rem;
 }
  .ptb-70 {
-     padding: 70px 0;
+     padding: 4.375rem 0;
 }
  .pb-70 {
-     padding-bottom: 70px;
+     padding-bottom: 4.375rem;
 }
 /* global css end here */
 /* header section css start */
  .site-logo img {
-     max-width: 100px;
+     max-width: 6.25rem;
 }
  .main-nav ul li a {
-     font-size: 18px;
+     font-size: 1.125rem;
      color: #333;
      font-weight: 700;
      transition: all 0.3s linear;
@@ -87,7 +87,7 @@
 }
  .site-header {
      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-     padding: 10px 0;
+     padding: 0.625rem 0;
      transition: all 0.3s linear;
      background: #fff;
 }
@@ -111,6 +111,17 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+}
+.site-banner::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.4;
 }
 .site-banner .container{
     height: 100%;
@@ -121,25 +132,26 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    position: relative;
 }
 .banner-text h1 {
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 700;
     line-height: 1.1;
     color: #ffffff;
 }
 .banner-text p {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #ffffff;
     margin-bottom: 0;
 }
 .banner-text {
-    max-width: 500px;
+    max-width: 31.25rem;
     width: 100%;
 }
 .contact-btn a {
     display: inline-block;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     line-height: 1.5;
     text-transform: uppercase;
@@ -147,10 +159,10 @@
     border: none;
     outline: none;
     border-radius: 5px;
-    padding: 16px 32px;
+    padding: 1rem 2rem;
     background-image: linear-gradient(135deg, #95229c 0%, #f3489a 100%);
     box-shadow: 0px 19px 56px 0px rgba(0, 0, 0, 0.2);
-    margin-top: 40px;
+    margin-top: 2.5rem;
     transition: all 0.3s linear;
 }
 .contact-btn a:hover{
@@ -163,13 +175,13 @@
     text-align: center;
 }
 .top-text h3, .site-heading h3 {
-    font-size: 30px;
-    margin-bottom: 15px;
+    font-size: 1.875rem;
+    margin-bottom: 0.9375rem;
     color: #25294a;
     font-weight: 700;
 }
 .top-text p, .site-heading p {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #333;
 }
 
@@ -178,14 +190,14 @@
 /* link card section css start */
 .link-sec {
     background: #25294a0f;
-    padding: 50px 0;
-    margin-bottom: 50px;
+    padding: 3.125rem 0;
+    margin-bottom: 3.125rem;
 }
 .link-wrap{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
+    height: 18.75rem;
     position: relative;
     overflow: hidden;
     border-radius: 30px;
@@ -236,7 +248,7 @@
     justify-content: center;
 }
 .link-wrap a h4 {
-    font-size: 25px;
+    font-size: 1.5625rem;
     color: #fff;
     font-weight: 700;
     margin-bottom: 0;
@@ -247,10 +259,10 @@
     text-align: center;
     max-width: 90%;
     margin: 0 auto;
-    margin-bottom: 25px;
+    margin-bottom: 1.5625rem;
 }
 .rate-wrap {
-    padding: 25px;
+    padding: 1.5625rem;
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     overflow: hidden;
@@ -262,7 +274,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 10px;
+    height: 0.625rem;
     width: 100%;
     background-color: #25294a;
     transition: all 0.3s linear;
@@ -282,22 +294,22 @@
     position: relative;
 }
 .rate-text h4 {
-    font-size: 25px;
+    font-size: 1.5625rem;
     color: #25294a;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     font-weight: 700;
     transition: all 0.3s linear;
 
 }
 .rate-text p {
-    font-size: 16px;
+    font-size: 1rem;
     margin-bottom: 0.575rem;
     color: #333;
     transition: all 0.3s linear;
 
 }
 .how-we-rate .col-lg-4 {
-    margin: 12px 0;
+    margin: 0.75rem  0;
 }
 
 /* how we rate section css end */
@@ -306,54 +318,60 @@
 
 .newsletter-sec{
     background-color: #25294a0f;
-    padding: 50px 0;
+    padding: 3.125rem 0;
 }
 .newsletter-wrap {
-    max-width: 800px;
+    max-width: 50rem;
     margin: 0 auto;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: #fff;
-    padding: 25px;
+    padding: 1.5625rem;
     border-radius: 10px;
 }
 .newsletter-text h4 {
-    font-size: 25px;
-    padding: 0 10px;
-    margin-bottom: 20px;
+    font-size: 1.5625rem;
+    padding: 0  0.625rem;
+    margin-bottom: 1.25rem;
     color: #25294a;
     font-weight: 600;
 }
 .newsletter-text input {
     width: 75%;
-    padding: 0 10px;
-    height: 45px;
+    padding: 0  0.625rem;
+    height: 2.8125rem;
     border: 2px solid #25294a;
     border-radius: 5px;
 }
 .newsletter-text button {
-    border: 2px solid #25294a;
-    height: 45px;
+    border: 2px solid #d73d9bbf;
+    height: 2.8125rem;
     width: 25%;
-    background: #25294a;
+    background-image: linear-gradient(135deg, #95229c 0%, #f3489a 100%);
     border-radius: 5px;
     color: #fff;
-    font-size: 16px;
-    margin-top: 15px;
+    font-size: 1rem;
+    margin-top: 0.9375rem;
     font-weight: 600;
+    transition: all 0.3s linear;
+
+}
+.newsletter-text button:hover{
+    background-image: linear-gradient(135deg, #f3489a 0%,  #95229c 100%);
+
 }
 /* newsletter section css end */
 
 /* blog post section css start */
 .blog-wrap {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 20px;
+    padding: 1.25rem;
     border-radius: 10px;
     position: relative;
     height: 100%;
 }
 .blog-img {
-    height: 350px;
+    height: 21.875rem;
     overflow: hidden;
 }
 .blog-img img{
@@ -362,31 +380,34 @@
     object-fit: cover;
 }
 .blog-text {
-    padding-top: 15px;
+    padding-top: 0.9375rem;
 }
 .blog-text h3 {
-    font-size: 28px;
-    margin-bottom: 10px;
+    font-size: 1.75rem;
+    margin-bottom: 0.625rem;
     line-height: 1.1;
     color: #25294a;
 }
 .blog-text p {
-    font-size: 17px;
+    font-size: 1.125rem;
     color: #333;
 }
 .check-out-btn a{
 
 display: inline-block;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     text-transform: uppercase;
     color: #ffffff;
     border: none;
     border-radius: 5px;
-    padding: 12px 25px;
+    padding: 0.75rem 1.5625rem;
     background-image: linear-gradient(135deg, #95229c 0%, #f3489a 100%);
     box-shadow: 0px 19px 56px 0px rgba(0, 0, 0, 0.2);
     transition: all 0.3s linear;
+}
+.check-out-btn a:hover{
+    background-image: linear-gradient(135deg, #f3489a 0%,  #95229c 100%);
 }
 /* blog post section css end */
 
@@ -410,10 +431,10 @@ display: inline-block;
   button.accordion-button {
     background-color: #25294a;
     color: #fff;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 .accordion-item {
-    margin: 10px 0;
+    margin: 0.625rem 0;
     border-radius: 10px !important;
     overflow: hidden;
 }
@@ -434,22 +455,31 @@ display: inline-block;
     gap: 20px;
 }
 .footer-links ul li a{
-    font-size: 18px;
+    font-size: 1.125rem;
     text-transform: uppercase;
     font-weight: 700;
     color: #25294a;
+}
+.footer-links ul li a:hover{
+    color: #95229c;
 }
 .social-icon ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 40px;
-    width: 40px;
-    background-color: #25294a;
-    font-size: 20px;
+    height: 2.5rem;
+    width: 2.5rem;
+    /*background-color: #25294a;
+    */background-image: linear-gradient(135deg, #95229c 0%, #f3489a 100%);
+    font-size: 1.25rem;
     color: #fff;
-    border: 1px solid #25294a;
+    border: 1px solid #95229c ;
     border-radius: 5px;
+    transition: all 0.3s linear;
+}
+.social-icon ul li a:hover{
+    background-image: linear-gradient(135deg,   #f3489a 0%, #95229c  100%);
+
 }
 .social-icon ul {
     display: flex;
@@ -462,7 +492,7 @@ display: inline-block;
     justify-content: space-between;
 }
 .copy-right p {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #333;
     margin-bottom: 0;
     text-transform: capitalize;
@@ -472,31 +502,34 @@ display: inline-block;
     color: #25294a;
     font-weight: 700;
 }
+.copy-right p a:hover{
+    color: #95229c;
+}
 .copy-right {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 25px;
-    margin-top: 35px;
+    padding-top: 1.5625rem;
+    margin-top: 2.1875rem;
     border-top: 1px solid #3a3982;
 }
 /* footer section css end */
 
 /* Disclaimer section css start */
 .disclaimer-text h4 {
-    font-size: 25px;
+    font-size: 1.5625rem;
     color: #25294a;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 .disclaimer-text p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #333;
     margin-bottom: 0.875rem;
 }
 .main-footer{
     background-color: #25294a0f;
-    padding: 50px 0;
+    padding: 3.125rem 0;
 }
 
 /* Disclaimer section css end */
@@ -518,16 +551,17 @@ display: inline-block;
     height: 100%;
     object-fit: cover;
     transform: skewX(-10deg) translateX(-33px);
+    background-color: #fff;
 }
 .soccer-right {
     width: 55%;
-    padding: 20px 0;
+    padding: 1.25rem 0;
 }
 .soccer-right h4 {
-    font-size: 25px;
+    font-size: 1.5625rem;
     color: #000;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 .soccer-right h4 a{
     color: #25294a;
@@ -537,38 +571,38 @@ display: inline-block;
     display: flex;
     align-items: center;
     gap: 20px;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #000;
-    padding: 5px 0;
+    padding: 0.3125rem 0;
 }
 .stars i {
-    font-size: 16px;
+    font-size: 1rem;
     color: #dab900;
 }
 
 .bottom-text h4 {
-    font-size: 25px;
-    margin-bottom: 10px;
+    font-size: 1.5625rem;
+    margin-bottom: 0.625rem;
     color: #25294a;
     font-weight: 700;
 }
 .bottom-text ul {
-    padding-left: 20px;
-    margin-bottom: 10px;
+    padding-left: 1.25rem;
+    margin-bottom: 0.625rem;
     list-style: disc;
 }
     .bottom-text ul li {
-        font-size: 16px;
+        font-size: 1rem;
         color: #333;
         padding: 2px 0;
     }
     .soccer-bottom {
-        padding: 0px 50px;
+        padding: 0px 3.125rem;
         display: flex;
         justify-content: space-between;
     }
     .bottom-text {
-        padding: 25px 0;
+        padding: 1.5625rem 0;
     }
     .bottom-right{
         width: 49%;
@@ -582,10 +616,10 @@ display: inline-block;
         border-radius: 10px;
         overflow: hidden;
         border: 2px solid #25294a;
-        margin: 40px 0;
+        margin: 2.5rem 0;
     }
     .soccer-right .check-out-btn {
-        margin-top: 20px;
+        margin-top: 1.25rem;
     }
     section.site-banner.sub-banner {
         height: 60vh;
