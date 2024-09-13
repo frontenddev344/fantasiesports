@@ -381,6 +381,7 @@
 }
 .blog-text {
     padding-top: 0.9375rem;
+    padding-bottom: 3.125rem;
 }
 .blog-text h3 {
     font-size: 1.75rem;
@@ -625,3 +626,38 @@ display: inline-block;
         height: 60vh;
     }
 /* soccer main section css end */
+
+/* blog pages css start */
+
+.blog-banner .banner-wrap{
+justify-content: center;
+}
+.blog-bx h3 {
+    font-size: 1.875rem;
+    color: #25294a;
+    margin-bottom: 0.625rem;
+    font-weight: 700;
+}
+.blog-bx p {
+    font-size: 1.125rem;
+    color: #333;
+}
+.blog-bx ul {
+    padding-left: 1.25rem;
+    list-style: disc;
+    margin: 0.625rem 0;
+}
+.blog-bx ul li {
+    font-size: 1rem;
+    color: #333;
+    padding: 0.4375rem 0;
+}
+.blog-bx ul li strong{
+    display: block;
+    color: #000;
+}
+.blog-wrap .check-out-btn {
+    position: absolute;
+    bottom: 1.25rem;
+}
+/* blog pages css end */
