@@ -105,6 +105,9 @@ section.site-banner.sub-banner {
         flex-wrap: wrap;
         justify-content: center;
     }
+    .soccer-img {
+        height: 200px;
+    }
 }
 @media(max-width:575px){
     html{

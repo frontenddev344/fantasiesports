@@ -566,11 +566,14 @@ display: inline-block;
 }
 .soccer-left img{
     height: 100%;
-    object-fit: cover;
-    transform: skewX(-10deg) translateX(-33px);
+    object-fit: contain;
+    /* transform: skewX(-10deg) translateX(-33px); */
     background-color: #fff;
     transition: all 0.3s linear;
 
+}
+.soccer-img {
+    height: 25rem;
 }
 /* .soccer-left img:hover{
     transform: skewX(-5deg) translateX(-20px);
