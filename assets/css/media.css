@@ -163,4 +163,7 @@ section.site-banner.sub-banner {
     section.site-banner.sub-banner {
         height: 45vh;
     }
+    .wrapper {
+        max-width: 285px;
+    }
 }
